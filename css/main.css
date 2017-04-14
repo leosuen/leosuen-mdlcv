@@ -1,5 +1,14 @@
- .mdl-card > .cv-photo {
-	height: 270px;
-	width: 210px;
-	background: url("../06.jpg");
+.mdl-grid {
+	max-width: 1280px;
+	justify-content: center;
+}
+
+#personal-intro.mdl-card  {
+	width: 350px;
+} 
+
+.mdl-card > .cv-photo {
+	height: 450px;
+	width: 350px;
+	background: url("../06.jpg")center/cover;
 }
