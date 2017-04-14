@@ -1,0 +1,5 @@
+ .mdl-card > .cv-photo {
+	height: 270px;
+	width: 210px;
+	background: url("../06.jpg");
+}
