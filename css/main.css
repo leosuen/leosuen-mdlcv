@@ -1,14 +1,81 @@
-.mdl-grid {
-	max-width: 1280px;
+html body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cv-header {
+	background-color: #143e6f;
+	position: relative;
+}
+
+.mdl-cv .mdl-layout__header-row {
+	padding: 0;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
 	justify-content: center;
 }
 
-#personal-intro.mdl-card  {
-	width: 350px;
-} 
+.mdl-cv .mdl-layout__drawer-button{
+	background-color: rgba(0, 0, 0, 0.153);
+}
 
-.mdl-card > .cv-photo {
+.cv-avatar-row {
+	min-height: 200px;
+}
+
+.is-compact .cv-avatar-row {
+	min-height: auto;
+}
+
+.cv-navigation {
+	background-color: rgba(0, 0, 0, 0.153);
+	height: 50px;
+}
+
+.cv-navigation .mdl-navigation {
+	text-align: center;
+	max-width: 800px;
+	width: 100%;
+}
+
+.cv-navigation .mdl-navigation__link {
+	flex: 1;
+	line-height: 40px;
+}
+
+.cv-navigation .mdl-layout__drawer {
+	padding: 0;
+	padding-left: 50px;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+}
+
+#about-me > .mdl-card-personal-img {
+	background: url("../06.jpg") no-repeat center/cover;
 	height: 450px;
 	width: 350px;
-	background: url("../06.jpg")center/cover;
+}
+
+#about-me > .mdl-card-about {
+	height: 450px;
+}
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.mdl-cv-max-width {
+	max-width: 1280px;
+}
+
+.mdl-grid {
+	max-width: 1280px;
+}
+
+.main--center {
+	justify-content: center;
 }
